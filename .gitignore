@@ -1,0 +1,30 @@
+#blacklist everything
+*
+
+!/.gitignore
+
+#whitelist folders with actual design info:
+!/boards/
+#whitelist the subdirectories of boards
+!*/*/
+#whitelist kicad pcb files in the boards directory
+# !boards/*/
+!*.kicad_pcb
+!*.kicad_sch
+!*.kicad_pro
+
+#whitelist verilog work in the firmware directory
+!/firmware/
+!*.v
+!*.pcf
+!*.sh
+
+#whitelist python stuff
+!/host software/
+!*.py
+!*.pkl
+
+#whitelist autodesk inventor files
+!/optics chassis/
+!*.ipt
+

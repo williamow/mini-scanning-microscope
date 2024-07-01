@@ -1,0 +1,35 @@
+# ##############################################################################
+# iCEcube PCF
+# Version:            2012.09SP1.22498
+# File Generated:     Sep 14 2013 17:36:59
+# Family & Device:    iCE40UP5K
+# Package:            SG48
+
+# ##############################################################################
+
+# UWB SPI interface
+set_io -nowarn UWB_CS        42
+set_io -nowarn UWB_MISO      28
+set_io -nowarn UWB_MOSI      32
+set_io -nowarn UWB_SCK       36
+
+# FTDI SPI interface
+set_io -nowarn FTDI_CS        16
+set_io -nowarn FTDI_MISO      17
+set_io -nowarn FTDI_MOSI      14
+set_io -nowarn FTDI_SCK       15
+
+#ASYNC FIFO
+set_io -nowarn FIFO_D[7]       25
+set_io -nowarn FIFO_D[6]       23
+set_io -nowarn FIFO_D[5]       21
+set_io -nowarn FIFO_D[4]       20
+set_io -nowarn FIFO_D[3]       19
+set_io -nowarn FIFO_D[2]       18
+set_io -nowarn FIFO_D[1]       9
+set_io -nowarn FIFO_D[0]       6
+set_io -nowarn FIFO_RD         11
+set_io -nowarn FIFO_WR     	   37
+set_io -nowarn FIFO_RXF        26
+set_io -nowarn FIFO_TXE        27
+
