@@ -49,7 +49,7 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.508
+          "min_clearance": 0.154
         }
       },
       "diff_pair_dimensions": [
@@ -119,9 +119,9 @@
         "allow_blind_buried_vias": false,
         "allow_microvias": false,
         "max_error": 0.005,
-        "min_clearance": 0.1524,
+        "min_clearance": 0.15,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.4,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -131,7 +131,7 @@
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1524,
+        "min_track_width": 0.15,
         "min_via_annular_width": 0.05,
         "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
@@ -184,7 +184,7 @@
       ],
       "track_widths": [
         0.0,
-        0.1524,
+        0.15,
         0.254
       ],
       "tuning_pattern_settings": {
@@ -460,7 +460,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.154,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -488,7 +488,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "fabrication outputs/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -608,15 +608,11 @@
   "sheets": [
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
-      ""
+      "Root"
     ],
     [
       "5af7677d-8b5c-4dfa-a482-9a873acac0d3",
       "LT3494_boost"
-    ],
-    [
-      "00faa32f-8732-42b4-a2fd-6859e4b7b0d7",
-      "LT3494_boost1"
     ],
     [
       "45ac326a-c736-44df-8a9f-831ee6a999be",
@@ -631,10 +627,6 @@
       "ADG5234"
     ],
     [
-      "db172008-375e-4e07-8e7d-66c296b46572",
-      "MAX1191"
-    ],
-    [
       "fa98a317-14ca-498d-8226-47acdff0c9f6",
       "TIA"
     ],
@@ -643,12 +635,12 @@
       "HVbias"
     ],
     [
-      "3a4131eb-674a-4b10-b8b8-de526279a61e",
-      "HVbias1"
-    ],
-    [
       "9a37c81a-183c-40e4-8d8a-3f31293a1232",
       "buck_supply"
+    ],
+    [
+      "e65baa50-3e61-46f2-a4c0-a92510b64bb7",
+      "ADC"
     ],
     [
       "ba4ecc41-26f0-48b3-89ea-86e78835d970",
