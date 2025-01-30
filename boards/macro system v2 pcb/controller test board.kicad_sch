@@ -4281,7 +4281,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 132.08) (xy 156.21 132.08)
+			(xy 166.37 132.08) (xy 156.21 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4701,7 +4701,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 146.05) (xy 158.75 134.62)
+			(xy 165.1 146.05) (xy 165.1 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5051,7 +5051,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 143.51) (xy 160.02 132.08)
+			(xy 166.37 143.51) (xy 166.37 132.08)
 		)
 		(stroke
 			(width 0)
@@ -5071,7 +5071,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 146.05) (xy 175.26 146.05)
+			(xy 165.1 146.05) (xy 175.26 146.05)
 		)
 		(stroke
 			(width 0)
@@ -5651,7 +5651,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 134.62) (xy 152.4 134.62)
+			(xy 165.1 134.62) (xy 152.4 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5711,7 +5711,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 143.51) (xy 175.26 143.51)
+			(xy 166.37 143.51) (xy 175.26 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6897,8 +6897,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "30358810-f210-40a8-a7e2-cfc8651cdd26")
-		(property "Reference" "D5"
-			(at 160.274 53.34 90)
+		(property "Reference" "TVS5"
+			(at 161.798 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6906,7 +6906,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "3.3v"
 			(at 161.798 51.562 90)
 			(effects
 				(font
@@ -6969,7 +6969,7 @@
 		(instances
 			(project "controller test board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D5")
+					(reference "TVS5")
 					(unit 1)
 				)
 			)
@@ -7721,7 +7721,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "5M"
+		(property "Value" "5.1M"
 			(at 61.976 74.93 0)
 			(effects
 				(font
@@ -8267,8 +8267,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "81c43dc9-9f7c-4aac-a915-ab9daab5d612")
-		(property "Reference" "D3"
-			(at 152.654 142.24 90)
+		(property "Reference" "TVS3"
+			(at 146.558 141.732 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8276,8 +8276,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 153.924 144.018 90)
+		(property "Value" "3.3v"
+			(at 146.812 143.51 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8339,7 +8339,7 @@
 		(instances
 			(project "controller test board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D3")
+					(reference "TVS3")
 					(unit 1)
 				)
 			)
@@ -9139,8 +9139,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d187b402-bcfd-4a1f-a348-5286da70340e")
-		(property "Reference" "D6"
-			(at 240.284 87.63 90)
+		(property "Reference" "TVS6"
+			(at 241.808 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9148,7 +9148,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "3.3v"
 			(at 241.808 85.852 90)
 			(effects
 				(font
@@ -9211,7 +9211,7 @@
 		(instances
 			(project "controller test board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D6")
+					(reference "TVS6")
 					(unit 1)
 				)
 			)
@@ -9226,8 +9226,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d3705b03-33c4-4b87-a639-71ff388a372e")
-		(property "Reference" "D2"
-			(at 67.564 74.93 90)
+		(property "Reference" "TVS2"
+			(at 68.834 71.374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9235,8 +9235,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 68.834 76.708 90)
+		(property "Value" "35v"
+			(at 69.088 73.152 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9298,7 +9298,7 @@
 		(instances
 			(project "controller test board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D2")
+					(reference "TVS2")
 					(unit 1)
 				)
 			)
@@ -9728,8 +9728,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7aa9794-12af-4e1b-ba9e-f62cae574a32")
-		(property "Reference" "D4"
-			(at 156.464 142.24 90)
+		(property "Reference" "TVS4"
+			(at 156.21 142.24 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9737,8 +9737,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "D"
-			(at 157.734 144.018 90)
+		(property "Value" "3.3v"
+			(at 156.718 144.018 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9800,7 +9800,7 @@
 		(instances
 			(project "controller test board"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "D4")
+					(reference "TVS4")
 					(unit 1)
 				)
 			)
@@ -10130,16 +10130,6 @@
 			)
 			(uuid "0f49f542-98ea-4e66-baf3-6c3e0cb4616c")
 		)
-		(pin "ADC_CLK" input
-			(at 149.86 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "6157d8cc-afba-4774-9274-2270f380a4e1")
-		)
 		(pin "UWB_SCK" input
 			(at 149.86 113.03 0)
 			(effects
@@ -10190,26 +10180,6 @@
 			)
 			(uuid "9d0d1482-5aa8-4434-ad0d-429e09b2b9ef")
 		)
-		(pin "ADC_D5" input
-			(at 149.86 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "1e0f2779-389e-4fdc-8770-c511487f7493")
-		)
-		(pin "ADC_D3" input
-			(at 149.86 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4493c5dd-b550-401f-87fc-1db502cf76a9")
-		)
 		(pin "ADC_D0" input
 			(at 149.86 82.55 0)
 			(effects
@@ -10220,26 +10190,6 @@
 			)
 			(uuid "5e154e78-94c8-4b31-9ca4-fabaa955b096")
 		)
-		(pin "ADC_D6" input
-			(at 149.86 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4d671e19-769a-4c99-bba0-882a490bd32c")
-		)
-		(pin "ADC_D4" input
-			(at 149.86 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "611a60a4-1bd1-4fe5-a4cf-7c3d6c873956")
-		)
 		(pin "ADC_D2" input
 			(at 149.86 87.63 0)
 			(effects
@@ -10249,26 +10199,6 @@
 				(justify right)
 			)
 			(uuid "5c0f0d0a-c3ba-4ba0-a477-f8ca1cde85fb")
-		)
-		(pin "ADC_D7" input
-			(at 149.86 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "b5f00eaf-ed5b-422c-b415-e855ac399eea")
-		)
-		(pin "PWM_DAC_1" input
-			(at 149.86 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "5d52e05e-7418-42d4-af9f-8a2c0aa9318f")
 		)
 		(pin "PWM_DAC_2" input
 			(at 149.86 76.2 0)
@@ -10299,26 +10229,6 @@
 				(justify right)
 			)
 			(uuid "151272ce-2224-444b-9b27-fbc36be8ca23")
-		)
-		(pin "LED_drive" input
-			(at 149.86 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "ec0d7ce0-2cd3-4b1d-8d2a-37cb5f8a371c")
-		)
-		(pin "ADC_A{slash}B" input
-			(at 149.86 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "cde0c598-65fb-41cc-a54d-b98a67366e23")
 		)
 		(pin "Mirror2" input
 			(at 149.86 134.62 0)

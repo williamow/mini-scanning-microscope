@@ -43,7 +43,7 @@ module main (
 
 	//regular slave SPI: ==========================================================================================	
 	//bank of config registers:
-	reg [15:0] cfg_regs [15:0];
+	reg [15:0] cfg_regs [5:0];
 
 	//map config regs to their purposes:
 	assign periodX = cfg_regs[0];
