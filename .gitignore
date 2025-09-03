@@ -3,7 +3,9 @@
 
 !/.gitignore
 
-#whitelist folders with actual design info:
+#then whitelist a few folders, and their subdirectories and key files within
+
+
 !/boards/
 #whitelist the subdirectories of boards
 !*/*/
@@ -26,5 +28,6 @@
 
 #whitelist autodesk inventor files
 !/optics chassis/
-!*.ipt
+/optics chassis/*
+!/optics chassis/*.ipt
 
